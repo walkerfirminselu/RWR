@@ -2,10 +2,10 @@ package com.aws.codestar.projecttemplates.model;
 
 import java.util.UUID;
 
-@Entity
+
 public class User {
 
-    private final int id;
+    private final UUID id;
     private final String name;
     //private final Role role;
 
